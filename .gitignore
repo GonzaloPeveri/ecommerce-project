@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 starting-code
+backend-archives
 *.local
 
 # Editor directories and files
