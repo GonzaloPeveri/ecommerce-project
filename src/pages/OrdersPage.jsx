@@ -2,7 +2,7 @@ import { Header } from '../components/Header.jsx'
 import './OrdersPage.css'
 import { Link } from 'react-router';
 
-export function OrdersPage() {
+export function OrdersPage({ cart }) {
     return (
         <>
             <Header />
