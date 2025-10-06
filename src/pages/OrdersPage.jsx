@@ -1,11 +1,12 @@
 import { Header } from '../components/Header.jsx'
+import { useState } from 'react';
 import './OrdersPage.css'
 import { Link } from 'react-router';
 
 export function OrdersPage({ cart }) {
     return (
         <>
-            <Header />
+            <Header cart={cart} />
             <title>Orders</title>
             <link rel="icon" type="image/svg+xml" href='../orders-favicon.png' />
             <div className="orders-page">

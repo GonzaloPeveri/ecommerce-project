@@ -1,13 +1,14 @@
 import { Header } from '../components/Header.jsx'
 import { Link } from 'react-router';
 import './TrackingPage.css'
+import { useState } from 'react';
 
-export function TrackingPage() {
+export function TrackingPage({ cart }) {
     return (
         <>
             <title>Tracking</title>
 
-            <Header />
+            <Header cart={cart} />
 
             <div class="tracking-page">
                 <div class="order-tracking">
