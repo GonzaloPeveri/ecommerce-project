@@ -49,6 +49,13 @@
   padding: 18px;
 }
 
+@media (min-width: 1001px) {
+  .checkout-page .payment-summary {
+    position: sticky;
+    top: 60px;
+  }
+}
+
 .checkout-page .cart-item-container {
   margin-bottom: 12px;
 }

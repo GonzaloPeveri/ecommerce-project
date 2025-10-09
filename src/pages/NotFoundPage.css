@@ -1,5 +1,6 @@
 .not-found-message {
-    margin: 140px 0 0 100px;
-    font-size: 80px;
-    font-family: default;
+    margin-top: 150px;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(180, 180, 180);
 }
