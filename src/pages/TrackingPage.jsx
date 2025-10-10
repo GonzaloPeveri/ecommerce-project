@@ -31,8 +31,14 @@ export function TrackingPage({ cart }) {
 
     let deliveryPercent = (timePassedMs / totalDeliveryTimeMs) * 100;
     if (deliveryPercent > 100) {
-        deliveryPercent = 15;
+        deliveryPercent = 50;
     }
+
+    const isPreparing = false;
+
+    const isShipped = true;
+
+    const isDelivered = false;
 
     return (
         <>

@@ -7,7 +7,6 @@ export function CheckoutHeader({ cart }) {
     cart.forEach((cartItem) => {
         totalQuantity += cartItem.quantity;
     })
-    console.log(totalQuantity);
     return (
 
         <div className="checkout-header">
